@@ -3,6 +3,7 @@
 /* My laptop viewport width is 1536px */
 
 
+
 * {
   margin: 0;
   padding: 0;
@@ -106,7 +107,14 @@ a {
 .pillars_of_bd {
   display: flex;
   flex-direction: column;
-  margin-top: 77px;
+  
+  margin: 50px 0;
+
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 48px;
+  letter-spacing: 0%;
+
 }
 
 .pillars-cards {
@@ -119,6 +127,7 @@ a {
 .pillars-card {
   display: flex;
   flex-direction: column;
+  gap: 30px;
   width: 290px;
   height: 234px;
   background-color: rgb(255, 255, 255);
@@ -164,7 +173,7 @@ a {
 
   display: flex;
   flex-direction: column;
-  margin: 77px 0;
+  /* margin: 77px 0; */
 }
 
 .vision .heading h1 {
@@ -174,6 +183,7 @@ a {
   line-height: 48px;
   letter-spacing: 0%;
   text-align: left;
+  margin-bottom: 30px;
 }
 
 .vision .heading p {
@@ -183,6 +193,7 @@ a {
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
+  margin-bottom: 30px;
 }
 
 
@@ -202,7 +213,7 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 1;
+  gap: 15px;
 
   box-sizing: border-box;
   border-radius: 16px;
@@ -289,6 +300,7 @@ a {
 .opinion {
   display: flex;
   flex-direction: column;
+  margin-top: 60px;
   
 }
 
@@ -388,6 +400,7 @@ select {
 
 
 .recent {
+  margin-top: 40px;
   height: 1349px;
   display: flex;
   flex-direction: column;
@@ -477,11 +490,12 @@ select {
   line-height: 48px;
   letter-spacing: 0%;
   text-align: left;
+
 }
 
 .donate {
-  height: 500px;
-  margin-top: 200px;
+  /* height: 500px;
+  margin-top: 200px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -576,6 +590,7 @@ select {
   border-radius: 24px;
   background: rgb(198, 228, 214);
   margin: 77px 0;
+  gap: 30px;
 }
 
 .subscribe > h1 {
