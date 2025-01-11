@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* :root {
+    --multiplier: .96;    /* Define the multiplier as a variable. My laptop screen has a viewport width of 1536 px. I am using the calculation technique that has been taught in Module 5  */
+} */
+
 
 * {
   margin: 0;
@@ -9,6 +13,7 @@
 
 body {
     font-family: 'Fira Sans', sans-serif;
+    background: rgb(245, 245, 245);
 }
 
 a {
@@ -27,6 +32,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .navbar ul {
@@ -37,8 +43,15 @@ a {
   box-sizing: border-box;
   border: 1px solid rgb(0, 106, 80);
   border-radius: 8px;
-  width: 116px;
-  height: 52px;
+
+  color: rgb(0, 106, 80);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 20px 28px;
+
 }
 
 .navbar h1 {
@@ -52,4 +65,90 @@ a {
 }
 
 
+.hero {
+  background-color: rgb(198, 228, 214);
+  border-radius: 24px;
+  height: 384px;
+  padding: 77px 96px;
 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.hero button {
+  border-radius: 8px;
+
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  width: 259px;
+  height: 54px
+}
+
+.hero-description > p {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+
+}
+
+
+.pillars_of_bd {
+  display: flex;
+  flex-direction: column;
+}
+
+.pillars-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+}
+
+.pillars-card {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  height: 234px;
+  background-color: rgb(255, 255, 255);
+  padding: 23px;
+  border-radius: 15px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+
+
+}
+
+
+.pillars-card img {
+  width: 47px;
+  height: 50px;
+}
+
+
+
+
+
+.pillars-card p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+
+}
+
+
+.pillars-card h1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
