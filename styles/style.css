@@ -84,7 +84,13 @@ a {
   background: rgb(0, 106, 80);
   color: rgb(255, 255, 255);
   width: 259px;
-  height: 54px
+  height: 54px;
+  border:none;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+
 }
 
 .hero-description > p {
@@ -102,6 +108,7 @@ a {
 .pillars_of_bd {
   display: flex;
   flex-direction: column;
+  margin-top: 77px;
 }
 
 .pillars-cards {
@@ -125,7 +132,7 @@ a {
 }
 
 
-.pillars-card img {
+.icon {
   width: 47px;
   height: 50px;
 }
@@ -151,4 +158,492 @@ a {
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+
+.vision {
+  height: 734px;
+
+  display: flex;
+  flex-direction: column;
+  margin: 77px 0;
+}
+
+.vision .heading h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision .heading p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+
+.vision-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+}
+
+.vision-cards > div{
+  padding: 31px;
+
+  width: 394px;
+  height: 312px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1;
+
+  box-sizing: border-box;
+  border-radius: 16px;
+
+}
+
+.vision-cards button{
+    padding: 31px;
+
+    width: 140px;
+    height: 41px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 8px;
+    border: none;
+
+    background-color: yellow;
+
+    padding: 11px 19px;
+    color: white;
+
+}
+
+
+
+.vision-card1 {
+  background: rgba(84, 144, 245, 0.2);
+}
+.vision-card1 button {
+  background: rgb(84, 144, 245);
+}
+
+
+
+.vision-card2 {
+  background: rgb(198, 228, 214);
+}
+.vision-card2 button {
+  background: rgb(9, 161, 92);;
+}
+
+
+
+
+.vision-card3 {
+  background: rgb(247, 235, 207);;
+}
+.vision-card3 button {
+  background: rgb(255, 194, 57);;
+}
+
+
+.vision-quote {
+  margin-top: 31px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+.vision-quote {
+  background-image: url(/assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: left 24px top 16px;
+  padding: 48px 24px 48px 24px;
+  background-color: white;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 15px;
+}
+
+.vision-quote > .quote, .designation {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.opinion {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.opinion h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+
+.opinion-desc {
+  background-color: white;
+  padding: 24px;
+}
+
+
+.opinion-heading  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(198, 228, 214);
+  height: 70px;
+  color: rgb(14, 14, 14);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 0 23px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+
+}
+
+
+
+table tr {
+  height: 70px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+select {
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+  background: rgb(198, 228, 214);
+
+  color: rgb(14, 14, 14);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  padding: 10px 14px 10px 14px;
+}
+
+
+
+
+
+
+
+
+
+
+.quote-author {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+
+.recent {
+  height: 1349px;
+  display: flex;
+  flex-direction: column;
+}
+
+.recent-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 23px;
+}
+
+.recent-cards > div {
+  display: flex;
+  flex-direction: row;
+  padding: 46px;
+  background-color: white;
+  border-radius: 23px;
+  gap: 31px;
+
+}
+
+.recent-cards > .recent-card2 {
+  display: flex;
+  flex-direction:row-reverse;
+}
+
+
+.card-image img{
+  width: 392px;
+  height: 294px;
+  border-radius: 23px;
+}
+
+.card-desc h1{
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.card-desc img {
+  width: 129px;
+  height:39px;
+  margin-bottom: 11px;
+}
+
+.card-desc div{
+  display: flex;
+  gap: 20px;
+
+}
+
+
+.card-desc button{
+  width: 129px;
+  height:39px;
+  margin-bottom: 11px;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.card-desc, .card-desc div span,.recent-head>p, .donate>p{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.recent-head h1{
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.donate {
+  height: 500px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.donate p {
+  text-align: center;
+  }
+
+.donate-cards {
+  display: flex;
+  gap: 23px;
+}
+
+.donate h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.donate-cards div {
+  width: 240px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  }
+
+
+.donate-cards > .donate-card2 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+
+.donate > input {
+  width: 990px;
+  height: 63px;
+  box-sizing: border-box;
+  border: none;
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.donate > button {
+  width: 151px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 379px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  margin: 77px 0;
+}
+
+.subscribe > h1 {
+  color: rgb(14, 14, 14);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.subscribe p {
+
+  width: 597px;
+  text-align: center;
+
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.subscribe .email-sub {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  height: 53px;
+  width: 720px;
+
+}
+
+.email-sub > input {
+  width: 85%;
+  text-align: center;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+}
+
+.email-sub > button {
+  width: 15%;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > .logos {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
 }
