@@ -3,7 +3,6 @@
 /* My laptop viewport width is 1536px */
 
 
-
 * {
   margin: 0;
   padding: 0;
@@ -22,9 +21,12 @@ a {
 
 
 .container {
-  margin: 0 154px;
-  width: 1152px;
+  padding: 0 154px;
+  /* max-width: 1152px; */
+  max-width: 80%;
 }
+
+
 
 .navbar {
   height: 96px;
@@ -120,7 +122,8 @@ a {
 .pillars-cards {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 3%;
 
 }
 
@@ -200,6 +203,8 @@ a {
 .vision-cards {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 23px;
 }
 
@@ -359,11 +364,11 @@ td {
   letter-spacing: 0%
 }
 
-.flex-container {
+/* .flex-container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  justify-content: left;
+  align-items: right;
+} */
 
 select {
   border: 1px solid rgb(14, 14, 14);
