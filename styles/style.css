@@ -12,6 +12,7 @@
 body {
     font-family: 'Fira Sans', sans-serif;
     background: rgb(245, 245, 245);
+    background-image: url(/assets/bg.png);
 }
 
 .hamburger-menu {
@@ -29,6 +30,12 @@ a {
   /* max-width: 1152px; */
   max-width: 80%;
 }
+
+
+  .other-amount {
+    font-size: 25px;
+    font-weight: bold;
+  }
 
 
 
@@ -67,6 +74,7 @@ a {
   line-height: 38px;
   letter-spacing: 0%;
   text-align: left;
+
 }
 
 
@@ -110,16 +118,49 @@ a {
 }
 
 
+.select-option {
+    text-align: center;
+    align-items: center;
+
+  }
+
+.select-option select {
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    /* font-size: 50px; */
+  }
+
+  .other-amount {
+    border-radius: 15px;
+    /* background-image: url(/assets/hero.png);
+    background-color: red;
+    color: yellow; */
+  }
+
+
+
+.head-title {
+  text-align: left;
+  margin-bottom: 40px;
+  font-size: 30px;
+  border-bottom: 5px dashed black;
+  /* color: red; */
+  /* color: red; */
+  /* font-weight: 100; */
+  }
+
+
 .pillars_of_bd {
   display: flex;
   flex-direction: column;
   
   margin: 50px 0;
 
-  font-size: 20px;
+  /* font-size: 20px;
   font-weight: 300;
   line-height: 48px;
-  letter-spacing: 0%;
+  letter-spacing: 0%; */
 
 }
 
@@ -127,6 +168,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* flex-wrap: wrap; */
   gap: 3%;
 
 }
@@ -165,14 +207,14 @@ a {
 }
 
 
-.pillars-card h1 {
+/* .pillars-card h1 {
   color: rgba(14, 14, 14, 0.8);
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
-}
+} */
 
 
 .vision {
@@ -183,7 +225,7 @@ a {
   /* margin: 77px 0; */
 }
 
-.vision .heading h1 {
+/* .vision .heading h1 {
   color: rgb(14, 14, 14);
   font-size: 40px;
   font-weight: 700;
@@ -191,7 +233,7 @@ a {
   letter-spacing: 0%;
   text-align: left;
   margin-bottom: 30px;
-}
+} */
 
 .vision .heading p {
   color: rgba(14, 14, 14, 0.7);
@@ -206,7 +248,7 @@ a {
 
 .vision-cards {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 23px;
@@ -313,14 +355,14 @@ a {
   
 }
 
-.opinion h1 {
+/* .opinion h1 {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 40px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0%;
-}
+} */
 
 .opinion-desc {
   background-color: white;
@@ -410,7 +452,7 @@ select {
 
 .recent {
   margin-top: 40px;
-  height: 1349px;
+  min-height: 1349px;
   display: flex;
   flex-direction: column;
 }
@@ -430,6 +472,7 @@ select {
   background-color: white;
   border-radius: 23px;
   gap: 31px;
+  max-width: 100%;
 
 }
 
@@ -445,15 +488,9 @@ select {
   border-radius: 23px;
 }
 
-.card-desc h1{
-  color: rgba(14, 14, 14, 0.8);
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 38px;
-  letter-spacing: 0%;
-  text-align: left;
-  margin-top: 5px;
-}
+/* .card-desc h1{
+  color: green
+} */
 
 .card-desc img {
   width: 129px;
@@ -461,7 +498,11 @@ select {
   margin-bottom: 11px;
 }
 
-.card-desc div{
+.card-desc > * {
+  margin: 10px;
+}
+
+.card-desc>div{
   display: flex;
   gap: 20px;
 
@@ -492,7 +533,20 @@ select {
   text-align: left;
 }
 
-.recent-head h1{
+.recent-cards>div {
+  padding: 5;
+  text-align: center;
+}
+
+.card-desc {
+  max-width: 100%;
+  text-align: left;
+  gap: 100px;
+  /* border: 1px solid green; */
+  /* border-radius: inherit; */
+}
+
+/* .recent-head h1{
   color: rgb(14, 14, 14);
   font-size: 40px;
   font-weight: 700;
@@ -500,7 +554,7 @@ select {
   letter-spacing: 0%;
   text-align: left;
 
-}
+} */
 
 .donate {
   /* height: 500px;
@@ -521,7 +575,7 @@ select {
   gap: 23px;
 }
 
-.donate h1 {
+/* .donate h1 {
   color: rgb(14, 14, 14);
   font-family: Fira Sans;
   font-size: 40px;
@@ -531,11 +585,11 @@ select {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-}
+} */
 
 .donate-cards div {
   width: 240px;
-  height: 128px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -602,14 +656,14 @@ select {
   gap: 30px;
 }
 
-.subscribe > h1 {
+/* .subscribe > h1 {
   color: rgb(14, 14, 14);
   font-size: 38px;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0%;
   text-align: center;
-}
+} */
 
 .subscribe p {
 
@@ -693,6 +747,8 @@ footer > .logos {
     /* max-width: 1152px; */
     margin: 0 auto;
     width: 100%;
+    gap: 100vh;
+    height: auto;
 }
   .hero {
     flex-direction: column;
@@ -729,6 +785,8 @@ footer > .logos {
     font-size: 10px;
   }
 
+
+
   .banner img {
     width: 100%;
   }
@@ -756,8 +814,20 @@ footer > .logos {
     font-size: 10px;
   }
 
+
+
   .head-title {
+    text-align: center;
     font-size: 30px;
+    border-bottom: 5px dashed black;
+    /* color: red; */
+    /* color: red; */
+    /* font-weight: 100; */
+  }
+
+  .head-title ~ p {
+    display: none;
+    /* color: red; */
     /* color: red; */
     /* font-weight: 100; */
   }
@@ -847,5 +917,31 @@ footer > .logos {
   }
 
 
+  .card-desc {
+    min-width: 100%;
+    text-align: left;
+    border: 1px dashed green;
+    border-radius: inherit;
+} 
 
+}
+
+@media (max-width:1536px) {
+  .vision-cards { 
+    display: flex; 
+    /* flex-direction: row; */ 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    gap: 3vw; 
+  }
+
+  .pillars-cards {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* gap: 3%; */
+    gap: 3vw;
+
+}
 }
