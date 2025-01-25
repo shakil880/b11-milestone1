@@ -26,9 +26,10 @@ a {
 
 
 .container {
-  padding: 0 100px;
+  padding: 0 10%;
   /* max-width: 1152px; */
-  max-width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 
@@ -751,7 +752,7 @@ footer > .logos {
   }
 
   .container {
-    padding: 0 30px;
+    padding: 0 auto;
     /* max-width: 1152px; */
     margin: 0 auto;
     width: 100%;
