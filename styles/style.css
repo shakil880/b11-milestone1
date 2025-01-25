@@ -14,6 +14,10 @@ body {
     background: rgb(245, 245, 245);
 }
 
+.hamburger-menu {
+  display: none;
+}
+
 a {
   text-decoration: none;
   background-color: transparent;
@@ -663,5 +667,106 @@ footer > .logos {
   display: flex;
   flex-direction: row;
   gap: 20px;
+
+}
+
+
+
+@media (max-width: 576px) {
+
+
+  .navbar h1, li>a{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .navbar li a {
+    display: none;
+  }
+
+  .hamburger-menu {
+  display: block;
+  }
+
+  .container {
+    padding: 0 30px;
+    /* max-width: 1152px; */
+    margin: 0 auto;
+    width: 100%;
+}
+  .hero {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .hero-description {
+    font-size: 12px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-description p {
+    text-align: center;
+  }
+
+  .header {
+    height: auto;
+    min-width: 100%;
+  }
+
+  .hero-description > .banner-btn {
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    /* background-color: red; */
+  }
+
+  .banner img {
+    width: 100%;
+  }
+
+  .pillars_of_bd {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .pillars-cards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .pillars-card {
+    min-width: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .banner-btn {
+    font-size: 10px;
+  }
+
+  .head-title {
+    font-size: 30px;
+    /* font-weight: 100; */
+  }
+
+  .visio, .opinion, .recent, .donate, footer {
+    height: auto;
+  }
+
+  .recent {
+    flex-direction: column;
+  }
+
+  .recent .card-image img {
+    display: none;
+  }
 
 }
