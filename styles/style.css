@@ -26,9 +26,9 @@ a {
 
 
 .container {
-  padding: 0 154px;
+  padding: 0 100px;
   /* max-width: 1152px; */
-  max-width: 80%;
+  max-width: 100%;
 }
 
 
@@ -88,6 +88,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  
 
 }
 
@@ -115,6 +116,13 @@ a {
   letter-spacing: 0%;
   text-align: left;
 
+
+  /* margin-bottom: 25px; */
+
+}
+
+.hero-description > * {
+  margin: 20px;
 }
 
 
