@@ -15,11 +15,28 @@
 				<ul>
 					<li>
 						<a href="#"><button>Sign In</button></a>
-						<span class="hamburger-menu">
+						
+						<!-- <li class="hamburger-menu" onclick="toggleMenu()">☰</li> -->
+						
+						<span class="hamburger-menu" onclick="toggleMenu()">
             	<i class="fa fa-bars" aria-hidden="true"></i>
           	</span>
 					</li>
 				</ul>
+
+
+				<ul id="mobile-menu" class="mobile-menu-hidden">
+            <a href="#" class="">Home</a>
+            <a href="#" class="">About</a>
+            <a href="#" class="">Services</a>
+            <a href="#" class="">Contact</a>
+<!-- 
+						<li><a href="">Home</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Services</a></li>
+						<li><a href="">Contact</a></li> -->
+        </ul>
+
 			</nav>
 			<div class="hero">
 				<div class="hero-description">
@@ -149,7 +166,6 @@
   			</tr>
 			</table>
 			</div>
-
 		</section>
 
 
@@ -262,6 +278,18 @@
 		</footer>
    </div>
 
+		<script>
+			function toggleMenu() {
+					var mobileMenu = document.getElementById("mobile-menu");
+					mobileMenu.classList.toggle("mobile-menu-visible");
+			}
+
+			let element = document.getElementById("mobile-menu")
+
+
+   		console.log(element.className);
+
+    </script>
 	
 </body>
 </html>
