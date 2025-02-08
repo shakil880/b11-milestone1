@@ -12,7 +12,7 @@
 body {
     font-family: 'Fira Sans', sans-serif;
     background: rgb(245, 245, 245);
-    background-image: url(assets/bg.png);
+    background-image: url(/assets/bg.png);
 }
 
 .hamburger-menu {
@@ -344,6 +344,7 @@ a {
   background-position: left 24px top 16px;
   padding: 48px 24px 48px 24px;
   background-color: white;
+  /* width: 50%; */
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 15px;
 }
