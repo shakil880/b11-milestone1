@@ -284,10 +284,12 @@
 					mobileMenu.classList.toggle("mobile-menu-visible");
 			}
 
-			let element = document.getElementById("mobile-menu")
+			let elements = document.getElementsByClassName("mobile-menu")
 
 
-   		console.log(element.className);
+   		for (let i in elements) {
+				console.log(i)
+			}
 
     </script>
 	
